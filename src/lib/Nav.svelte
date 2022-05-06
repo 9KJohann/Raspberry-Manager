@@ -6,6 +6,7 @@ import NavItem from "./NavItem.svelte";
 <style>
 #nav {
     grid-area: nav;
+    background-color: #2f3837;
 }
    
 
@@ -22,20 +23,11 @@ nav ul {
 nav p {
     padding: 1rem;
 }
-
-
-.box {
-    background-color: #474747;
-    padding: 1rem;
-    font-size: 150%;
-    color: white;
-}
 </style>
-<nav id="nav" class="box">
+<nav id="nav">
     <p>Navleiste jaja</p>
     <ul>
-        <NavItem name="Home" path="/" />
-        <NavItem name="Spaß" path="/spaß" />
-        <NavItem name="Kuhle Seite" path="/kuhleSeite" />
+        <NavItem name="Home" path="/" icon="home" />
+        <NavItem name="Netzwerk" path="/network" icon="lan" />
     </ul>
 </nav>

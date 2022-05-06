@@ -4,3 +4,10 @@
     margin: 0;
     font-family: 'Cormorant Garamond', serif;
 }
+:root{
+    --backColor: #505F5E;
+    --secondaryColor: #A0DB47;
+    --highlightColor: #247ba0;
+    --nochnefarbe: #76acb8;
+    --fontColor: #e2e2e2;
+}

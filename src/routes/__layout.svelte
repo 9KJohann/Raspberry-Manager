@@ -4,12 +4,12 @@
 </script>
 
 <div class="wrapper">
-	<header id="header" class="box">Hier könnte ein Header sein</header>
+	<header id="header">Hier könnte ein Header sein</header>
 	<Nav />
-	<main id="main" class="box">
+	<main id="main">
 		<slot />
 	</main>
-	<footer id="footer" class="box">und hier stehen coole links</footer>
+	<footer id="footer">und hier stehen coole links</footer>
 </div>
 
 <style>
@@ -19,8 +19,9 @@
 		min-height: 100vh;
 		grid-template-columns: 250px 1fr;
 		grid-template-rows: auto 1fr auto;
-		grid-gap: 0.1rem;
-		background-color: black;
+		color: var(--fontColor);
+		font-size: 1.25rem;
+		background-color: var(--backColor);
 	}
 
 	#header {
@@ -36,12 +37,7 @@
 		grid-area: footer;
 	}
 
-	.box {
-		background-color: #474747;
-		padding: 1rem;
-		font-size: 150%;
-		color: white;
-	}
+	
 
 	
 </style>
