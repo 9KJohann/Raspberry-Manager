@@ -1,1 +1,0 @@
-<p>kuhler Inhalt</p>
